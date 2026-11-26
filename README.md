@@ -1,11 +1,7 @@
 # Sales Intelligence Hub
-
 A **Branch-Based Sales Management System** built with **MySQL**, **Python** and **Streamlit**. It tracks branch-wise sales, handles split payments, and automatically keeps received and pending amounts accurate using database triggers and generated columns, all behind a role-based login.
 
 **Domain:** Sales Analytics & Financial Tracking
-
----
-
 
 ## Problem Statement
 
