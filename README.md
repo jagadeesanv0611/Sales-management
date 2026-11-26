@@ -304,20 +304,36 @@ Sales-Intelligence-Hub/
 ### Super admin Login:
 <img width="1005" height="475" alt="image" src="https://github.com/user-attachments/assets/79af565f-8f0a-4eb9-b132-d592fe5e9b1b" />
 
+### Dashboard Page:
+#### Super admin:
+<img width="693" height="330" alt="image" src="https://github.com/user-attachments/assets/bb1a09af-b0bb-47d2-94fe-46269c051afe" />
+
+#### Branch admin:
+<img width="783" height="372" alt="image" src="https://github.com/user-attachments/assets/aac86e9b-9948-4c96-9737-6c3e15daadbc" />
+
+#### Filter by branch:
+<img width="336" height="250" alt="image" src="https://github.com/user-attachments/assets/e3fb202a-80ee-400e-bb53-cb3a3e859afb" />
+
+
+### Sales Record:
+#### Superadmin:
+<img width="1018" height="390" alt="image" src="https://github.com/user-attachments/assets/d087a993-0458-4b20-81a2-3fd1cf3e5127" />
+
+#### Branch admin:
+<img width="971" height="420" alt="image" src="https://github.com/user-attachments/assets/6fdb56df-3f3f-4752-8751-eebbd4d89cd2" />
 
 
 
-| Login | KPI Dashboard |
-| --- | --- |
-| ![Login](<img width="1012" height="483" alt="image" src="https://github.com/user-attachments/assets/89358b35-3740-4a7f-b4ac-203c89d575f9" />
-) | ![Dashboard](<img width="693" height="330" alt="image" src="https://github.com/user-attachments/assets/a1528886-dc08-47cf-8078-2dadc182db26" />
-) |
 
-| Add Sale | Payment Splits |
-| --- | --- |
-| ![Add Sale](<img width="1018" height="390" alt="image" src="https://github.com/user-attachments/assets/32202c88-8318-4d6f-9ebc-a2c03d0289fd" />
-) | ![Payments](<img width="983" height="404" alt="image" src="https://github.com/user-attachments/assets/50ec1534-de8a-4f81-bbff-201e233c0133" />
-) |
+
+
+
+
+
+
+
+
+
 
 
 
