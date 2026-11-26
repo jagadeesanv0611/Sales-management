@@ -67,8 +67,7 @@ customer_sales (1) ──► (Many) payment_splits
 branches (1) ──► (Many) users
 ```
 
-### `branches`
-
+### branches:
 Stores the business branches.
 
 | Column | Type | Description |
@@ -298,7 +297,15 @@ Sales-Intelligence-Hub/
 | Super Admin | `[username]` | `[password]` |
 | Admin | `[username]` | `[password]` |
 
-## Screenshots
+## Images:
+### Login Page:
+<img width="1012" height="483" alt="image" src="https://github.com/user-attachments/assets/b9adfcf2-be6a-450c-8145-a29f88a6dd88" />
+
+### Super admin Login:
+<img width="1005" height="475" alt="image" src="https://github.com/user-attachments/assets/79af565f-8f0a-4eb9-b132-d592fe5e9b1b" />
+
+
+
 
 | Login | KPI Dashboard |
 | --- | --- |
