@@ -6,24 +6,6 @@ A **Branch-Based Sales Management System** built with **MySQL**, **Python** and 
 
 ---
 
-## Table of Contents
-
-1. [Problem Statement](#problem-statement)
-2. [Features](#features)
-3. [Tech Stack](#tech-stack)
-4. [Database Design](#database-design)
-5. [Automation Logic (Triggers)](#automation-logic-triggers)
-6. [Role-Based Access Control](#role-based-access-control)
-7. [Dashboard & Reporting](#dashboard--reporting)
-8. [SQL Analysis Queries](#sql-analysis-queries)
-9. [Project Structure](#project-structure)
-10. [Installation & Setup](#installation--setup)
-11. [Usage](#usage)
-12. [Screenshots](#screenshots)
-13. [Skills Demonstrated](#skills-demonstrated)
-14. [Author](#author)
-
----
 
 ## Problem Statement
 
@@ -50,6 +32,17 @@ This project provides a structured, automated alternative that:
 - **Financial KPI cards:** total sales, received amount, pending amount
 - **Predefined SQL query runner** (20 analysis queries)
 - **Automated calculations** via triggers and a generated column, with no manual arithmetic
+
+## Skills
+
+- Python
+- MySQL database design
+- SQL queries & aggregations
+- Triggers & generated columns
+- Streamlit web application development
+- Payment tracking logic
+- Relational database management
+- Role-based access control
 
 ## Tech Stack
 
@@ -307,28 +300,17 @@ Sales-Intelligence-Hub/
 
 ## Screenshots
 
-> Add your screenshots to a `screenshots/` folder and link them here.
-
 | Login | KPI Dashboard |
 | --- | --- |
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
+| ![Login](<img width="1012" height="483" alt="image" src="https://github.com/user-attachments/assets/89358b35-3740-4a7f-b4ac-203c89d575f9" />
+) | ![Dashboard](<img width="693" height="330" alt="image" src="https://github.com/user-attachments/assets/a1528886-dc08-47cf-8078-2dadc182db26" />
+) |
 
 | Add Sale | Payment Splits |
 | --- | --- |
-| ![Add Sale](screenshots/add_sale.png) | ![Payments](screenshots/payments.png) |
+| ![Add Sale](<img width="1018" height="390" alt="image" src="https://github.com/user-attachments/assets/32202c88-8318-4d6f-9ebc-a2c03d0289fd" />
+) | ![Payments](<img width="983" height="404" alt="image" src="https://github.com/user-attachments/assets/50ec1534-de8a-4f81-bbff-201e233c0133" />
+) |
 
-## Skills Demonstrated
 
-- Python
-- MySQL database design
-- SQL queries & aggregations
-- Triggers & generated columns
-- Streamlit web application development
-- Payment tracking logic
-- Relational database management
-- Role-based access control
 
-## Author
-
-**[Your Name]**
-[GitHub](https://github.com/your-username) · [LinkedIn](https://linkedin.com/in/your-profile) · [Email](mailto:your-email@example.com)
