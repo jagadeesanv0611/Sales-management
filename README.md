@@ -208,75 +208,6 @@ Demo data must be loaded into MySQL before running the analysis queries.
 | **Join-based** | Sales with branch name; sales with total payment received; branch-wise gross sales; sales with payment method; sales with branch admin name |
 | **Financial tracking** | Sales with pending amount > 5000; top 3 highest gross sales; branch with highest total gross sales |
 
-The queries are available in `[queries file name].sql` and from the **SQL Query Runner** page in the app.
-
-## Project Structure
-
-> Update this tree to match your repository.
-
-```
-Sales-Intelligence-Hub/
-├── app.py                  # Streamlit application entry point
-├── database/
-│   ├── schema.sql          # Tables, constraints, generated column
-│   ├── triggers.sql        # AFTER INSERT trigger on payment_splits
-│   └── sample_data.sql     # Demo data
-├── queries/
-│   └── analysis_queries.sql
-├── requirements.txt
-└── README.md
-```
-
-## Installation & Setup
-
-### Prerequisites
-
-- Python 3.9 or higher
-- MySQL Server 8.x
-- pip
-
-### Steps
-
-1. **Clone the repository**
-
-   ```bash
-   git clone <your-repo-url>
-   cd Sales-Intelligence-Hub
-   ```
-
-2. **Create and activate a virtual environment** (optional but recommended)
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate      # Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Set up the database**
-
-   ```bash
-   mysql -u <user> -p < database/schema.sql
-   mysql -u <user> -p < database/triggers.sql
-   mysql -u <user> -p < database/sample_data.sql
-   ```
-
-5. **Configure the database connection**
-
-   Update the connection settings (host, user, password, database) in `[config file or app.py]`.
-
-6. **Run the application**
-
-   ```bash
-   streamlit run app.py
-   ```
-
-   The app opens at `http://localhost:8501`.
-
 ## Usage
 
 1. Log in with a Super Admin or Admin account.
@@ -290,7 +221,7 @@ Sales-Intelligence-Hub/
 
 | Role | Username | Password |
 | --- | --- | --- |
-| Super Admin | `[username]` | `[password]` |
+| Super Admin | superadmin_1 | pass@s123 |
 | Admin | `[username]` | `[password]` |
 
 ## Images:
@@ -315,18 +246,29 @@ Sales-Intelligence-Hub/
 #### Superadmin:
 <img width="1018" height="390" alt="image" src="https://github.com/user-attachments/assets/d087a993-0458-4b20-81a2-3fd1cf3e5127" />
 
+#### New Sale form:
+<img width="971" height="420" alt="image" src="https://github.com/user-attachments/assets/acc2cfd3-d28e-4b31-baaf-66aaa6dfd0b9" />
+
+### Payment Splits:
+#### Super admin:
+<img width="983" height="404" alt="image" src="https://github.com/user-attachments/assets/42f9f401-fa22-4482-be0a-245def162f21" />
+
+#### New Payment splits:
+<img width="1090" height="397" alt="image" src="https://github.com/user-attachments/assets/63d9d7de-94e9-4d3a-b1cd-99eba88da6f8" />
+
+### Pending Payments:
+#### Super admin:
+<img width="1040" height="488" alt="image" src="https://github.com/user-attachments/assets/6bb92ca0-b92a-46d7-b6c0-e1823fd66b25" />
+
 #### Branch admin:
-<img width="971" height="420" alt="image" src="https://github.com/user-attachments/assets/6fdb56df-3f3f-4752-8751-eebbd4d89cd2" />
+<img width="1090" height="521" alt="image" src="https://github.com/user-attachments/assets/4e4f86c1-b5ee-458f-9ab3-91bf4660db42" />
 
+### Analytics:
+#### Super admin:
+<img width="973" height="396" alt="image" src="https://github.com/user-attachments/assets/73e97a58-d284-4648-b332-281dc42864c6" />
 
-
-
-
-
-
-
-
-
+#### Sample branch A analytics:
+<img width="1043" height="470" alt="image" src="https://github.com/user-attachments/assets/9daa49b1-958c-423d-9339-bf483832fe12" />
 
 
 
