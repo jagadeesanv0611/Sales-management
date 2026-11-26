@@ -1,8 +1,6 @@
 # Sales Intelligence Hub
 A **Branch-Based Sales Management System** built with **MySQL**, **Python** and **Streamlit**. It tracks branch-wise sales, handles split payments, and automatically keeps received and pending amounts accurate using database triggers and generated columns, all behind a role-based login.
 
-**Domain:** Sales Analytics & Financial Tracking
-
 ## Project Objective
 The objective of this project is to design and implement a structured Branch-Based Sales Management System using MySQL, Python and Streamlit.
 The system is built to:
