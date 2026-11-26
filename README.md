@@ -3,6 +3,17 @@ A **Branch-Based Sales Management System** built with **MySQL**, **Python** and 
 
 **Domain:** Sales Analytics & Financial Tracking
 
+## Project Objective
+The objective of this project is to design and implement a structured Branch-Based Sales Management System using MySQL, Python and Streamlit.
+The system is built to:
+Store branch-wise sales records
+Automatically calculate net sales and pending amounts
+Support split payment tracking for customers
+Automatically update received and pending amounts using database triggers
+Provide an interactive Streamlit dashboard with secure login and role-based access for Super Admin and Admin users
+
+The end goal is accurate financial reporting, automated calculations and real-time sales monitoring across branches, helping the business track branch performance, compare received vs pending payments and make informed decisions from financial summaries.
+
 ## Problem Statement
 
 Organizations that operate across multiple branches often struggle with tracking sales, collecting payments, monitoring pending amounts and keeping clean financial records. Manual tracking leads to inconsistent data, duplicate entries, incorrect payment calculations and a lack of transparency.
